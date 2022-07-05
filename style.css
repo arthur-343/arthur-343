@@ -1,0 +1,150 @@
+body{
+	font-family: Nunito, sans-serif;
+	color: #1c1c1c;
+}
+
+h1, h2{
+		font-family: Asap, sans-serif;
+		color: #000000;
+}
+.botao{
+
+ 		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px, 10px, 20px, 20px;
+		background-color: ##000000;
+		color: #ffffff;
+
+
+
+}
+
+
+	/* Navegação */
+
+nav{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #191970;
+}
+
+nav    a {
+			text-decoration: none;
+			color: #ffffff;
+			font-weight: 800;
+			font-size: 32px;
+			font-family: Yellowtail, serif;
+}
+
+nav ul {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		list-style: none;
+		padding: 0;
+		width: 100%;
+
+}
+
+
+nav ul li {
+			text-align: center;
+			width: 100%;
+
+}
+
+nav ul li a {
+
+			display: inline-block;
+			padding: 10px 0;
+			width: 100%;
+			text-decoration: none;
+			color:  #ffffff;
+
+}
+
+ /*Cabeçalho*/
+
+ header {
+
+ 		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: url("../img/tela azul.png");
+		background-size: cover;
+		background-repeat: no-repeat ;
+		background-position: center;
+		color: #ffffff;
+		text-align: center;
+		padding: 20px;
+
+ }
+
+ header h1{
+
+ 	color: #ffffff;
+
+ }
+
+ header p{
+
+ 	margin-bottom: 2em;
+
+ }
+
+ #Topo .botao{
+
+ 		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px, 10px, 20px, 20px;
+		background-color: #191970;
+		color: #ffffff;
+
+ }
+
+#topo{
+
+ 		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px, 10px, 20px, 20px;
+		background-color: #191970;
+		color: #ffffff; 
+}
+
+#Hoteis div{
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			margin-top: 20px;
+
+}
+
+#Artesanato div{
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			margin-top: 30px;
+}
+
+ #Praias div{
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			margin-top: 30px;
+}
+
+
